@@ -1,0 +1,148 @@
+@font-face 
+{
+    font-family: 'ballpark';
+    src: url('polices/ballpark.eot') format('eot');
+    src: url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face 
+{
+    font-family: 'dayrom';
+    src: url('polices/dayrom.eot') format('eot');
+    src: url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*backgroud*/
+body
+{
+    max-width: 90%;
+    margin-left: 5%;
+    background-image: url("images/fond_jaune.png") ;
+}
+
+
+            /* EN-TETE */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre
+{
+    font-family: 'ballpark';
+    font-size: 36px;
+}
+
+ul 
+{
+  list-style-type: none;
+}
+
+.logo
+{
+    align-items: baseline;
+}
+
+h1
+{
+    font-family: 'dayrom';
+    font-size: 16px;
+    text-align: center;
+}
+
+nav
+{
+    display: flex;
+    width: 450px;
+}
+
+.element
+{
+    font-family: 'dayrom';
+    font-size: 24px;
+    margin: auto;
+}
+
+.element a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.element a:hover
+{
+    color: darkred;
+    text-decoration: underline;
+}
+
+
+            /* SEPARATEUR */
+
+.separateur
+{
+    width: 100%;
+    display: flex;
+    background-image: url("images/separateur.png");
+    background-repeat: repeat-x;
+}
+
+
+
+            /* CORPS */
+
+.sanfrancisco
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.lien_sanf
+{
+    display: flex;
+    width: 99%;
+    font-family: 'dayrom';
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.text
+{
+    margin-left: 10px;
+}
+
+.bloc_rouge
+{
+    display: flex;
+    background-color: darkred;
+    border-radius: 6px;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bouton
+{
+    margin-right: 10px;
+    margin-top: 3px;
+}
